@@ -1,0 +1,78 @@
+.image-editor-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+.editor-header, .editor-footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+
+// Основная область редактора
+.editor-body {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+// Левая панель с инструментами
+.editor-tools {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 20%;
+}
+
+.brightness-slider {
+    display: flex;
+    flex-direction: column;
+}
+
+.crop-aspects {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+// Центр с изображением
+.image-preview-wrapper {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-preview {
+    max-width: 100%;
+    max-height: 80vh;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+// Правая панель с кнопкой скачать
+.editor-actions {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+}
+
+.download-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.download-button:hover {
+    background-color: #45a049;
+}
