@@ -4,7 +4,7 @@ import './ImageEditor.scss';
 
 const Footer: React.FC = () => (
     <Layout.Footer className="footer">
-        <p>John Doe | GitHub | Telegram</p>
+        <p>Оганян Иван| GitHub - https://github.com/Gatnaron/proj5 | Telegram - https://t.me/Gatnizig</p>
     </Layout.Footer>
 );
 
